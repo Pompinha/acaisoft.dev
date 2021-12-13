@@ -1,0 +1,106 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	background-image: url("../IMAGENS/FUNDO.jpg");
+	background-origin: 50% 70%;
+	color: white;
+	font-family: arial;
+}
+input{
+	display: block;
+	height: 55px;
+	width: 400px;
+	margin: 10px;
+	border-radius: 30px;
+	border: 1px solid white;
+	font-size: 16pt;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,0.01);
+	color: white;
+	outline: none;
+}
+
+div#corpo-form{	
+	width: 420px;
+	margin: 150px auto 0px auto; 
+}
+div#corpo-form h1{
+	text-align: center;
+	padding: 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+input[type=submit]{
+	background-color: #FF0066;
+	border: none;	
+	cursor: pointer;
+	margin: 5px 10px 0px auto; 
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color:white;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: white;  
+}
+
+:-ms-input-placeholder {  
+   color: white;  
+}	
+
+div#msg-sucesso{
+	width: 420;.
+	margin: 10px auto;
+	background-color: rgba(50,205,50,.3);
+	border: 1px solid rgb(34,149,34);
+}
+div.msg-erro{
+	width: 420;.
+	margin: 10px auto;
+	padding: 10px;
+	background-color: rgba(250,128,114,.3);
+	border: 1px solid rgb(165,42,42);
+}
+
+.ul-vendas{display: none;}
+
+/*TELA MAIN*/
+*{margin: 0;padding: 0; font-size: 100%; font-family: 'Open Sans', sans-serif; box-sizing:border-box; border:none; outline: none; }
+img {max-height: 100%;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h2 {font-size: 1.5em;color: #333;}
+p {font-size: 1em; color: #777;}
+/*cabeçalho*/
+.cabecalho {width: 100%; float: left; padding: 50px 8%; background-color: #ffffff;}
+.logo a { width: 376px; height: 241px; float: left; background: url(../IMAGENS/logo.png) no-repeat; font-size: 0;}
+.cabecalho form {width: 30%; float: right;}
+.cabecalho input[type="text"] {width: 85%; float: left; padding: 15px 10px; border-radius: 5px 0 0 5px;}
+.cabecalho button {width: 15%; float: right; padding: 15px 10px; background-color: #6f1198; color: #fff; cursor: pointer; border-radius:0 5px 5px 0;}
+/*menu*/
+.menu {width: 100%; float: left; background-color: #6f1198; padding: 18px 8%;}
+.menu li {float: left;}
+.menu li a {color: #ffffff; margin-right: 25px;}
+.menu li a:hover {color: #d3d3d3;}
+.social-icons {float: right}
+.social-icons a {color: #fff; float: left; margin-left: 12px;}
+.btn-facebook:hover {color:#3B5998;}
+.btn-instagram:hover {color:#ff0000;}
+.btn-whatsapp:hover {color: #34af23;}
